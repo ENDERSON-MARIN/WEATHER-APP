@@ -12,30 +12,9 @@
 }
 
 .card > img {
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
 }
-
-/* .primary {
-  display: flex;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 5vh 15vh;
-  width: 20rem;
-  padding: 0 0.5rem;
-  flex-basis: fit-content;
-  justify-content: end;
-}
-
-.primary > span {
-  margin-top: 0.5rem;
-  grid-column: 1 / span  2;
-  text-align: center;
-}
-
-.primary > img {
-  width: 8rem;
-  height: 8rem;
-} */
 
 .name {
   background-color: #0000005e;

@@ -10,7 +10,7 @@ import Nav from "./components/Nav";
 import AboutPage from "./views/AboutPage";
 import CitiesPage from "./views/CitiesPage.js";
 import CityDetail from "./views/CityDetail";
-import ContactPage from "./views/ContactPage.js";
+import Contact from "./views/Contact.jsx";
 
 function App() {
   const [data, setData] = React.useState([]);
@@ -89,7 +89,7 @@ function App() {
           <AboutPage />
         </Route>
         <Route path="/contact">
-          <ContactPage />
+          <Contact />
         </Route>
       </div>
     </div>
