@@ -4,7 +4,7 @@ const apiKey = process.env.REACT_APP_APIKEY;
 
 export default function fetchCity(ciudad, setData) {
   fetch(
-    `http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric`
+    `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric`
   )
     .then((respuesta) => respuesta.json())
     .then((json) => {
