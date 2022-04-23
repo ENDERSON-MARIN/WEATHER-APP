@@ -54,7 +54,7 @@ function CityDetail({ id, onBack }) {
               </div>
               <img
                 className={styles.imagen}
-                src={`http://openweathermap.org/img/wn/${city.img}@2x.png`}
+                src={`https://openweathermap.org/img/wn/${city.img}@2x.png`}
                 alt="Imagen del clima"
               />
             </div>
