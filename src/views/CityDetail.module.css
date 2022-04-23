@@ -1,0 +1,30 @@
+.city {
+  color: white;
+  font-size: large;
+  background-color: black;
+  margin-bottom: 413px;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detail > img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.propiedades {
+  display: flex;
+}
+
+.propiedades > label {
+  margin-right: 0.5rem;
+}
+
+.title {
+  color: #ffff01;
+  text-align: center;
+}

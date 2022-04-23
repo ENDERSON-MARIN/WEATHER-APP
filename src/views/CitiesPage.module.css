@@ -1,0 +1,16 @@
+.citiesContainer {
+    display: flex;
+    height: 20vh;
+    background-color: #ffffff78;
+    backdrop-filter: blur(16px);
+    justify-content: space-between;
+}
+
+.noCity {
+    text-align: center;
+    align-items: center;
+    width: 70vw;
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
