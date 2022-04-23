@@ -19,7 +19,7 @@ export default function Card(props) {
           {name}
         </Link>
         <img
-          src={`http://openweathermap.org/img/wn/${img}@2x.png`}
+          src={`https://openweathermap.org/img/wn/${img}@2x.png`}
           alt="Imagen del clima"
         />
         <div className={styles.temps}>
